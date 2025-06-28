@@ -1,0 +1,138 @@
+[
+  {
+    "slug": "san-francisco",
+    "title": "San Francisco Testing",
+    "currency": "$",
+    "price": 199,
+    "description": "Explore the country with a tourist visa, perfect for short-term travel and leisure.",
+    "image": "/assets/san-francisco.webp",
+    "link": "https://example.com/apply/tourist-visa",
+    "visaTypes": [
+      {
+        "name": "Single Entry",
+        "description": "Allows one entry into the country for up to 30 days."
+      },
+      {
+        "name": "Multiple Entry",
+        "description": "Allows multiple entries within a 6-month period."
+      }
+    ],
+    "documents": [
+      "Valid passport (at least 6 months validity)",
+      "Completed visa application form",
+      "Recent passport-sized photo",
+      "Proof of travel itinerary",
+      "Proof of accommodation"
+    ],
+    "processSteps": [
+      {
+        "title": "Submit Application",
+        "description": "Complete the online application form with accurate details."
+      },
+      {
+        "title": "Pay Fees",
+        "description": "Pay the visa fee through the secure payment portal."
+      },
+      {
+        "title": "Attend Interview",
+        "description": "Schedule and attend an interview if required."
+      },
+      {
+        "title": "Receive Visa",
+        "description": "Get your visa approval via email or pick up at the embassy."
+      }
+    ],
+    "processingTime": "5-7 business days",
+    "additionalFees": [
+      {
+        "name": "Expedited Processing",
+        "amount": 50
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How long is the visa valid for?",
+        "answer": "The tourist visa is valid for up to 30 days for single entry and 6 months for multiple entries."
+      },
+      {
+        "question": "Can I extend my visa?",
+        "answer": "Extensions may be possible; contact the embassy for details."
+      }
+    ],
+    "applyHelp": [
+      {
+        "title": "Application Portal",
+        "text": "Start your application",
+        "link": "https://example.com/apply"
+      },
+      {
+        "title": "Customer Support",
+        "text": "Contact our support team",
+        "link": "https://example.com/support"
+      }
+    ],
+    "premiumServices": [
+      {
+        "title": "VIP Assistance",
+        "description": "Get personalized support for your visa application.",
+        "link": "https://example.com/premium/vip"
+      },
+      {
+        "title": "Fast-Track Service",
+        "description": "Expedite your visa processing for quicker approval.",
+        "link": "https://example.com/premium/fast-track"
+      }
+    ]
+  },
+  {
+    "slug": "123",
+    "title": "123",
+    "currency": "$",
+    "price": 123,
+    "description": "",
+    "image": "https://plus.unsplash.com/premium_photo-1749668819550-43e7a3712a31?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8",
+    "link": "",
+    "visaTypes": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ],
+    "documents": [
+      ""
+    ],
+    "processSteps": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "processingTime": "",
+    "additionalFees": [
+      {
+        "name": "",
+        "amount": 0
+      }
+    ],
+    "faqs": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "applyHelp": [
+      {
+        "title": "",
+        "text": "",
+        "link": ""
+      }
+    ],
+    "premiumServices": [
+      {
+        "title": "",
+        "description": "",
+        "link": ""
+      }
+    ]
+  }
+]

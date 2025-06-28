@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Your Custom Experience",
+        "description": "Custom-designed trips that cater to your unique interests, preferences, and travel style. Whether you're seeking adventure, relaxation, or cultural immersion, we make it personal.",
+        "image": "/assets/value-ico-1.png"
+    },
+    {
+        "id": 2,
+        "title": "Expert Local Knowledge",
+        "description": "Benefit from our insider expertise and local connections to experience destinations like a true insider. We provide you with the best recommendations, hidden gems, and local secrets.",
+        "image": "/assets/value-ico-1.png"
+    },
+    {
+        "id": 3,
+        "title": "Hassle-Free Planning",
+        "description": "Say goodbye to the stress of planning. From transportation to accommodations and everything in between, we handle the details, so you can focus on enjoying your journey.",
+        "image": "/assets/value-ico-1.png"
+    },
+    {
+        "id": 4,
+        "title": "Hassle-Free Planning",
+        "description": "Say goodbye to the stress of planning. From transportation to accommodations and everything in between, we handle the details, so you can focus on enjoying your journey.",
+        "image": "/assets/value-ico-1.png"
+    }
+]

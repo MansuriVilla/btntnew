@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "authorName": "John Doe",
+    "authorRole": "Brooklyn, NY",
+    "text": "Brooklyn Travel and Tourism made my trip unforgettable! The guides were knowledgeable and the itinerary was perfectly planned. Highly recommend!",
+    "image": "/assets/images/testimonials/john_doe.jpg"
+  },
+  {
+    "id": 2,
+    "authorName": "Jane Smith",
+    "authorRole": "New York, NY",
+    "text": "I had an amazing experience with Brooklyn Travel and Tourism. The local insights and personalized service made all the difference. Will definitely book again!",
+    "image": "/assets/images/testimonials/jane_smith.jpg"
+  },
+  {
+    "id": 3,
+    "authorName": "Emily Johnson",
+    "authorRole": "Brooklyn, NY",
+    "text": "The best travel agency I've ever worked with! They took care of everything and made my trip stress-free. Thank you, Brooklyn Travel and Tourism!",
+    "image": "/assets/images/testimonials/emily_johnson.jpg"
+  },
+  {
+    "id": 4,
+    "authorName": "Michael Brown",
+    "authorRole": "Brooklyn, NY",
+    "text": "From start to finish, my experience with Brooklyn Travel and Tourism was exceptional. The team was professional and attentive to all my needs.",
+    "image": "/assets/images/testimonials/michael_brown.jpg"
+  },
+  {
+    "id": 5,
+    "authorName": "Sarah Wilson",
+    "authorRole": "New York, NY",
+    "text": "I can't thank Brooklyn Travel and Tourism enough for the wonderful trip they organized for me. Every detail was perfect!",
+    "image": "/assets/images/testimonials/sarah_wilson.jpg"
+  },
+  {
+    "id": 6,
+    "authorName": "David Lee",
+    "authorRole": "Brooklyn, NY",
+    "text": "Brooklyn Travel and Tourism exceeded my expectations. The guides were friendly and knowledgeable, and the experiences were unforgettable.",
+    "image": "/assets/images/testimonials/david_lee.jpg"
+  },
+  {
+    "id": 7,
+    "authorName": "Lisa Green",
+    "authorRole": "Brooklyn, NY",
+    "text": "I had a fantastic time exploring Brooklyn with the help of this travel agency. They really know the area well!",
+    "image": "/assets/images/testimonials/lisa_green.jpg"
+  },
+  {
+    "id": 8,
+    "authorName": "Chris Martin",
+    "authorRole": "Brooklyn, NY",
+    "text": "The team at Brooklyn Travel and Tourism made my trip so easy and enjoyable. I highly recommend their services to anyone looking to explore the city.",
+    "image": "/assets/images/testimonials/chris_martin.jpg"
+  },
+  {
+    "id": 9,
+    "authorName": "Anna Taylor",
+    "authorRole": "Brooklyn, NY",
+    "text": "Brooklyn Travel and Tourism is the best! They took care of everything and made my trip unforgettable. I can't wait to book my next adventure with them!",
+    "image": "/assets/images/testimonials/anna_taylor.jpg"
+  },
+  {
+    "id": 10,
+    "authorName": "James Anderson",
+    "authorRole": "Brooklyn, NY",
+    "text": "I had an amazing experience with Brooklyn Travel and Tourism. The guides were knowledgeable and the itinerary was perfectly planned. Highly recommend!",
+    "image": "/assets/images/testimonials/james_anderson.jpg"
+  },
+  {
+    "id": 11,
+    "authorName": "Olivia Martinez",
+    "authorRole": "Brooklyn, NY",
+    "text": "The best travel agency I've ever worked with! They took care of everything and made my trip stress-free. Thank you, Brooklyn Travel and Tourism!",
+    "image": "/assets/images/testimonials/olivia_martinez.jpg"
+  },
+  {
+    "id": 12,
+    "authorName": "William Harris",
+    "authorRole": "Brooklyn, NY",
+    "text": "From start to finish, my experience with Brooklyn Travel and Tourism was exceptional. The team was professional and attentive to all my needs.",
+    "image": "/assets/images/testimonials/william_harris.jpg"
+  },
+  {
+    "id": 13,
+    "authorName": "Sophia Clark",
+    "authorRole": "Brooklyn, NY",
+    "text": "I can't thank Brooklyn Travel and Tourism enough for the wonderful trip they organized for me. Every detail was perfect!",
+    "image": "/assets/images/testimonials/sophia_clark.jpg"
+  },
+  {
+    "id": 14,
+    "authorName": "Liam Walker",
+    "authorRole": "Brooklyn, NY",
+    "text": "Brooklyn Travel and Tourism exceeded my expectations. The guides were friendly and knowledgeable, and the experiences were unforgettable.",
+    "image": "/assets/images/testimonials/liam_walker.jpg"
+  },
+  {
+    "id": 15,
+    "authorName": "Emma Young",
+    "authorRole": "Brooklyn, NY",
+    "text": "I had a fantastic time exploring Brooklyn with the help of this travel agency. They really know the area well!",
+    "image": "/assets/images/testimonials/emma_young.jpg"
+  },
+  {
+    "id": 16,
+    "authorName": "John Doe",
+    "authorRole": "Brooklyn, NY",
+    "text": "Brooklyn Travel and Tourism made my trip unforgettable! The guides were knowledgeable and the itinerary was perfectly planned. Highly recommend!",
+    "image": "/assets/images/testimonials/john_doe.jpg"
+  },
+  {
+    "id": 17,
+    "authorName": "Jane Smith",
+    "authorRole": "New York, NY",
+    "text": "I had an amazing experience with Brooklyn Travel and Tourism. The local insights and personalized service made all the difference. Will definitely book again!",
+    "image": "/assets/images/testimonials/jane_smith.jpg"
+  },
+  {
+    "id": 18,
+    "authorName": "Emily Johnson",
+    "authorRole": "Brooklyn, NY",
+    "text": "The best travel agency I've ever worked with! They took care of everything and made my trip stress-free. Thank you, Brooklyn Travel and Tourism!",
+    "image": "/assets/images/testimonials/emily_johnson.jpg"
+  },
+  {
+    "id": 19,
+    "authorName": "Michael Brown",
+    "authorRole": "Brooklyn, NY",
+    "text": "From start to finish, my experience with Brooklyn Travel and Tourism was exceptional. The team was professional and attentive to all my needs.",
+    "image": "/assets/images/testimonials/michael_brown.jpg"
+  },
+  {
+    "id": 20,
+    "authorName": "Sarah Wilson",
+    "authorRole": "New York, NY",
+    "text": "I can't thank Brooklyn Travel and Tourism enough for the wonderful trip they organized for me. Every detail was perfect!",
+    "image": "/assets/images/testimonials/sarah_wilson.jpg"
+  },
+  {
+    "id": 21,
+    "authorName": "David Lee",
+    "authorRole": "Brooklyn, NY",
+    "text": "Brooklyn Travel and Tourism exceeded my expectations. The guides were friendly and knowledgeable, and the experiences were unforgettable.",
+    "image": "/assets/images/testimonials/david_lee.jpg"
+  },
+  {
+    "id": 22,
+    "authorName": "Lisa Green",
+    "authorRole": "Brooklyn, NY",
+    "text": "I had a fantastic time exploring Brooklyn with the help of this travel agency. They really know the area well!",
+    "image": "/assets/images/testimonials/lisa_green.jpg"
+  },
+  {
+    "id": 23,
+    "authorName": "Chris Martin",
+    "authorRole": "Brooklyn, NY",
+    "text": "The team at Brooklyn Travel and Tourism made my trip so easy and enjoyable. I highly recommend their services to anyone looking to explore the city.",
+    "image": "/assets/images/testimonials/chris_martin.jpg"
+  },
+  {
+    "id": 24,
+    "authorName": "Anna Taylor",
+    "authorRole": "Brooklyn, NY",
+    "text": "Brooklyn Travel and Tourism is the best! They took care of everything and made my trip unforgettable. I can't wait to book my next adventure with them!",
+    "image": "/assets/images/testimonials/anna_taylor.jpg"
+  },
+  {
+    "id": 25,
+    "authorName": "James Anderson",
+    "authorRole": "Brooklyn, NY",
+    "text": "I had an amazing experience with Brooklyn Travel and Tourism. The guides were knowledgeable and the itinerary was perfectly planned. Highly recommend!",
+    "image": "/assets/images/testimonials/james_anderson.jpg"
+  },
+  {
+    "id": 26,
+    "authorName": "Olivia Martinez",
+    "authorRole": "Brooklyn, NY",
+    "text": "The best travel agency I've ever worked with! They took care of everything and made my trip stress-free. Thank you, Brooklyn Travel and Tourism!",
+    "image": "/assets/images/testimonials/olivia_martinez.jpg"
+  },
+  {
+    "id": 27,
+    "authorName": "William Harris",
+    "authorRole": "Brooklyn, NY",
+    "text": "From start to finish, my experience with Brooklyn Travel and Tourism was exceptional. The team was professional and attentive to all my needs.",
+    "image": "/assets/images/testimonials/william_harris.jpg"
+  },
+  {
+    "id": 28,
+    "authorName": "Sophia Clark",
+    "authorRole": "Brooklyn, NY",
+    "text": "I can't thank Brooklyn Travel and Tourism enough for the wonderful trip they organized for me. Every detail was perfect!",
+    "image": "/assets/images/testimonials/sophia_clark.jpg"
+  },
+  {
+    "id": 29,
+    "authorName": "Liam Walker",
+    "authorRole": "Brooklyn, NY",
+    "text": "Brooklyn Travel and Tourism exceeded my expectations. The guides were friendly and knowledgeable, and the experiences were unforgettable.",
+    "image": "/assets/images/testimonials/liam_walker.jpg"
+  },
+  {
+    "id": 30,
+    "authorName": "Emma Young",
+    "authorRole": "Brooklyn, NY",
+    "text": "I had a fantastic time exploring Brooklyn with the help of this travel agency. They really know the area well!",
+    "image": "/assets/images/testimonials/emma_young.jpg"
+  }
+]

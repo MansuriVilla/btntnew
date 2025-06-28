@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "num": "01",
+    "title": "Apply",
+    "details": "Answer some initial information, make your payment, and provide some final information."
+  },
+  {
+    "id": 2,
+    "num": "02",
+    "title": "Leave the rest to us",
+    "details": "Get easy access to your document via email. If an embassy appointment is required to get your document, we’ll schedule it for you."
+  },
+  {
+    "id": 3,
+    "num": "03",
+    "title": "Enjoy your visit!",
+    "details": "Be ready to show your passport and document when you land at your destination."
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What is Brooklyn Travel and Tourism?",
+    "answer": "Brooklyn Travel and Tourism is a comprehensive platform that provides information about travel, tourism, and local attractions in Brooklyn. It aims to help visitors explore the borough's rich culture, history, and diverse offerings."
+  },
+  {
+    "id": 2,
+    "question": "How can I book a tour?",
+    "answer": "You can book a tour through our website by selecting your desired tour package and following the booking instructions. If you have any questions, feel free to contact our support team."
+  },
+  {
+    "id": 3,
+    "question": "What are the top attractions in Brooklyn?",
+    "answer": "Some of the top attract bions in Brooklyn include the Brooklyn Bridge, Prospect Park, Coney Island, and the Brooklyn Museum. Each offers unique experiences and insights into the borough's history and culture."
+  },
+  {
+    "id": 4,
+    "question": "Are there any travel restrictions due to COVID-19?",
+    "answer": "Yes, there may be travel restrictions or guidelines in place due to COVID-19. We recommend checking local health advisories and government websites for the latest information before planning your visit."
+  },
+  {
+    "id": 5,
+    "question": "How can I contact customer support?",
+    "answer": "You can contact our customer support team via email at support@brooklyntravel.com."
+  }
+]
