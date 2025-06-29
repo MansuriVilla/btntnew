@@ -6,12 +6,20 @@ const jwt = require("jsonwebtoken");
 
 const app = express();
 
-// Configure CORS for local Vite frontend
+// Configure CORS for both local and production
+const allowedOrigins = ["http://localhost:5173", "https://btntnew.vercel.app"];
 app.use(
   cors({
-    origin: "https://btntnew.vercel.app/",
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
   })
 );
 app.use(express.json());
@@ -29,7 +37,6 @@ app.post("/api/login", (req, res) => {
     password === process.env.ADMIN_PASSWORD ||
     password === "##$$btnt_2025#@@!"
   ) {
-    // Local testing password
     const token = jwt.sign(
       { user: "admin" },
       process.env.JWT_SECRET || "local-secret",
