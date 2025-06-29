@@ -9,7 +9,7 @@ const app = express();
 // Configure CORS for local Vite frontend
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://btntnew.vercel.app/",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
