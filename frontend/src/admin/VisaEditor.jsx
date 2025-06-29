@@ -35,9 +35,7 @@ function VisaEditor() {
     setLoading(true);
     try {
       const response = await fetch(
-        `${
-          import.meta.env.VITE_BACKEND_URL || "http://localhost:3000"
-        }/api/visas`,
+        `${"https://btntnew.vercel.app/" || "http://localhost:3000"}/api/visas`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token") || ""}`,
@@ -59,9 +57,7 @@ function VisaEditor() {
     setLoading(true);
     try {
       const response = await fetch(
-        `${
-          import.meta.env.VITE_BACKEND_URL || "http://localhost:3000"
-        }/api/login`,
+        `${"https://btntnew.vercel.app/" || "http://localhost:3000"}/api/login`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -161,7 +157,7 @@ function VisaEditor() {
           : [...visas, newVisa];
       const response = await fetch(
         `${
-          import.meta.env.VITE_BACKEND_URL || "http://localhost:3000"
+          "https://btntnew.vercel.app/" || "http://localhost:3000"
         }/api/save-visas`,
         {
           method: "POST",
@@ -213,7 +209,7 @@ function VisaEditor() {
       const updatedVisas = visas.filter((_, i) => i !== index);
       const response = await fetch(
         `${
-          import.meta.env.VITE_BACKEND_URL || "http://localhost:3000"
+          "https://btntnew.vercel.app/" || "http://localhost:3000"
         }/api/save-visas`,
         {
           method: "POST",
