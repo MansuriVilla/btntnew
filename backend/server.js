@@ -1,15 +1,15 @@
 const express = require("express");
+const fs = require("fs");
 const path = require("path");
 const cors = require("cors");
-const fs = require("fs");
 const jwt = require("jsonwebtoken");
 
 const app = express();
 
-// CORS configuration for Vercel frontend
+// Configure CORS for local Vite frontend
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:5173",
+    origin: "http://localhost:5173",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
@@ -17,18 +17,24 @@ app.use(
 app.use(express.json());
 
 // Persistent storage for visaData.json
-const dataPath = "/data/visaData.json";
+const dataPath = path.join(__dirname, "../frontend/src/data/visaData.json");
 if (!fs.existsSync(dataPath)) {
-  fs.copyFileSync(path.join(__dirname, "./visaData.json"), dataPath);
+  fs.writeFileSync(dataPath, JSON.stringify([], null, 2));
 }
 
 // JWT login endpoint
 app.post("/api/login", (req, res) => {
   const { password } = req.body;
-  if (password === process.env.ADMIN_PASSWORD) {
-    const token = jwt.sign({ user: "admin" }, process.env.JWT_SECRET, {
-      expiresIn: "1h",
-    });
+  if (
+    password === process.env.ADMIN_PASSWORD ||
+    password === "##$$btnt_2025#@@!"
+  ) {
+    // Local testing password
+    const token = jwt.sign(
+      { user: "admin" },
+      process.env.JWT_SECRET || "local-secret",
+      { expiresIn: "1h" }
+    );
     res.json({ token });
   } else {
     res.status(401).json({ error: "Incorrect password" });
@@ -39,32 +45,36 @@ app.post("/api/login", (req, res) => {
 const verifyToken = (req, res, next) => {
   const token = req.headers.authorization?.split(" ")[1];
   if (!token) return res.status(401).json({ error: "Unauthorized" });
-  jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
-    if (err) return res.status(401).json({ error: "Invalid token" });
-    next();
-  });
+  jwt.verify(
+    token,
+    process.env.JWT_SECRET || "local-secret",
+    (err, decoded) => {
+      if (err) return res.status(401).json({ error: "Invalid token" });
+      next();
+    }
+  );
 };
 
 // API routes
 app.get("/api/visas", verifyToken, (req, res) => {
   try {
-    const visaData = JSON.parse(fs.readFileSync(dataPath));
-    res.json(visaData);
-  } catch (error) {
-    res.status(500).send("Error reading visas");
+    const data = fs.readFileSync(dataPath, "utf8");
+    res.json(JSON.parse(data));
+  } catch (err) {
+    res.status(500).json({ error: "Failed to read visa data" });
   }
 });
 
 app.post("/api/save-visas", verifyToken, (req, res) => {
   try {
     fs.writeFileSync(dataPath, JSON.stringify(req.body, null, 2));
-    res.status(200).send("Visas saved successfully");
-  } catch (error) {
-    res.status(500).send("Error saving visas");
+    res.json({ success: true });
+  } catch (err) {
+    res.status(500).json({ error: "Failed to save visa data" });
   }
 });
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
